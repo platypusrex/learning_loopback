@@ -1,10 +1,8 @@
 {
   "db": {
+    "url": "mongodb://localhost/learning_loopback",
     "name": "db",
-    "connector": "memory"
-  },
-  "mysqIDs": {
-    "name": "mysqIDs",
+    "defaultForType": "db",
     "connector": "mongodb"
   }
 }
